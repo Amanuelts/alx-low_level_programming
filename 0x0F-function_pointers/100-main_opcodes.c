@@ -1,13 +1,15 @@
 #include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - prints the opcodes
- * @argc: argument counter
- * @argv: argument vector
+ * print_opcodes - print the opcodes of this program
+ * @a: address of the main function
+ * @n: number of bytes to print
  *
- * Return: Always 0 (Sucess)
+ * Return: void
  */
+
 int main(int argc, char *argv[])
 {
 	if (argc != 2)
